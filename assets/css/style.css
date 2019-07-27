@@ -1,0 +1,35 @@
+.navbar-brand {
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar {
+    border-bottom: 2px solid #cccccc;
+}
+
+p.text-center {
+    margin-bottom: 0;
+}
+
+.teal {
+    background: #4aaaa5;
+}
+
+.display-5 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.text-teal {
+    color: #4aaaa5;
+}
+
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.fixed-bottom {
+    margin-top: 50px;
+}
