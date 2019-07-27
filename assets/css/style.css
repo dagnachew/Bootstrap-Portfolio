@@ -33,3 +33,35 @@ p.text-center {
 .fixed-bottom {
     margin-top: 50px;
 }
+
+@media ( max-width: 600px){
+    .navbar-brand {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .navbar {
+        border-bottom: none;
+        display: block;
+        float: none;
+    }
+
+    .navbar>.container {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        margin: 0 auto;
+    }
+
+    ul.navbar-nav {
+        width: 40%;
+    }
+
+    #main-nav {
+        padding: 0;
+        margin: 0;
+    }
+}
