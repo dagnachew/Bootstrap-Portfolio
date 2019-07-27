@@ -34,6 +34,14 @@ p.text-center {
     margin-top: 50px;
 }
 
+p.caption {    
+    display: block;
+    width: 100%;
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+
 @media ( max-width: 600px){
     .navbar-brand {
         display: block;
