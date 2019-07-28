@@ -30,7 +30,6 @@ h2.display-5 {
 
 .text-teal {
     color: #485922 !important;
-
 }
 
 .btn-primary,
@@ -38,10 +37,6 @@ h2.display-5 {
 .btn-primary:active  {
     background-color: #798C35 !important;
     border-color: #485922 !important;
-}
-
-.fixed-bottom {
-    margin-top: 50px;
 }
 
 p.caption {    
@@ -56,7 +51,6 @@ p.caption {
 
 .tinted img {
     background: 
-      /* top, transparent red */ 
       linear-gradient(
         rgba(121, 140, 53, 0.3), 
         rgba(121, 140, 53, 0.3)
@@ -111,5 +105,4 @@ p.caption {
         padding-left: 0;
         padding-right: 0;
     }
-
 }
