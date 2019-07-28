@@ -1,7 +1,9 @@
+
 .navbar-brand {
-    background: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #fff;
+    background: #B4BF5E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: #485922 !important;
     font-weight: bold;
 }
 
@@ -14,20 +16,24 @@ p.text-center {
 }
 
 .teal {
-    background: #4aaaa5;
+    background: #B4BF5E;
 }
 
-.display-5 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+h2.display-5 {
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 1.8rem !important;
 }
 
 .text-teal {
-    color: #4aaaa5;
+    color: #485922 !important;
+
 }
 
-.btn-primary {
-    background-color: #4aaaa5;
-    border-color: #4aaaa5;
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active  {
+    background-color: #798C35 !important;
+    border-color: #485922 !important;
 }
 
 .fixed-bottom {
@@ -36,10 +42,12 @@ p.text-center {
 
 p.caption {    
     display: block;
-    width: 100%;
     width: 100% !important;
     margin: 0 auto !important;
     text-align: center;
+    color:  #fff;
+    font-weight: 700;
+    padding: 5px 0 5px 0 !important;
 }
 
 @media ( max-width: 600px){
@@ -67,12 +75,15 @@ p.caption {
 
     ul.navbar-nav {
         display: flexbox;
-
     }
 
     #main-nav {
         padding: 0;
         margin: 0;
+    }
+    .row {
+        padding-left: 0;
+        padding-right: 0;
     }
 
 }
