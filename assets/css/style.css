@@ -88,10 +88,10 @@ p.caption {
         padding: 0;
     }
     
-    .navbar-nav {
+    /* .navbar-nav {
         width: 42%;
         margin: 0 auto;
-    }
+    } */
 
     ul.navbar-nav {
         display: flexbox;
